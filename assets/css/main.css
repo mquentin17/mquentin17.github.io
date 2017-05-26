@@ -1,0 +1,221 @@
+body {
+	font-family: "Open Sans Condensed", sans-serif;
+	background: white;
+}
+
+a {
+	text-decoration: none;
+	padding: 15px;
+}
+
+a:hover{
+	border-bottom: 1px solid #darkred;
+    
+}
+
+
+img {
+	width:100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+
+article {
+	width:25%;
+	background:gold;
+	margin:10px 5px 10px 5px;
+
+}
+
+section {
+	background: white;
+}
+
+
+.hobby {
+}
+
+/*
+	Nav Section
+*/
+
+.nav {
+	padding: 5px;
+	text-align: right;
+	border-bottom: 1px solid darkorange;
+} 
+
+.nav a {
+	margin-right: 5px;
+	color:darkred;
+}
+
+
+.nav a:hover {
+	background-color:darkorange;
+	color:white;
+}
+
+
+/*
+	Intro Section
+*/
+
+
+.intro {
+	text-align: center;
+	margin: auto;
+}
+
+.intro-image {
+	width:205px;
+	height:205px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+
+.title {
+	color:darkred;
+}
+
+ /*
+	Bio Section
+ */
+
+ .bio {
+ 	background: url('../img/earth-from-outer-space.jpg');
+ 	height:700px;
+ 	width: auto;
+ 	text-align: left;
+}
+
+.bio-div {
+	padding-top: 3px;
+	padding-right: 500px;
+	padding-left:20px;
+}
+
+.bio p {
+	color:white;
+}
+
+.bio h1 {
+	color:white;
+}
+
+/*
+	Hobby Section
+*/
+
+.section-label {
+	text-align: center;
+}
+
+.hobby h2 {
+	color: darkred;
+}
+
+.hobby p {
+	color:white;
+
+}
+
+.item-text {
+	padding: 10px;
+}
+
+.hobby {
+	background-color: darkorange;
+}
+
+.hobby-content {
+	display: flex;
+}
+
+.icon {
+	width: 75px;
+	height: 75px;
+}
+
+
+.hobby-parts {
+	background-color: darkorange;
+	width:33%;
+}
+
+.big-icon {
+	width: 100px;
+	height: 100px;
+	border-radius: 10%;
+	overflow: hidden;
+}
+
+.icon-image {
+	text-align: center;
+}
+
+/*
+	Student Section
+*/
+
+.hsavat-students{
+	background-color:lightgreen;
+	}
+
+.hsavat-students p{
+		text-align: center;
+		font-size: 16px;
+}
+
+.student-photo {
+	margin-top:15px;
+	width:200px;
+	height:200px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left-side-picture {
+	margin-left: 10px;
+}
+
+.left-side-picture img {
+	width: 310px;
+	margin-left:-70px;
+}
+
+.right-side-picture {
+	margin-right: 10px;
+}
+
+.flex h3 {
+	text-align:center;
+}
+
+.wrapper {
+	max-width: 1024px;
+	width: 1024px;
+	margin:0px auto;
+}
+
+.title-students {
+	color:lightgreen;
+	text-align: center;
+}
+
+.flex a {
+	padding:0px;
+}
+
